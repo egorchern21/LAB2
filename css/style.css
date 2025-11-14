@@ -1,0 +1,283 @@
+body {
+    font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background-color: #F5F5F8;
+    color: #1B1B21;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* HEADER */
+
+.header {
+    background-color: #FFFFFF;
+    padding: 18px 0;
+    border-bottom: 1px solid #E5E7EB;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 24px;
+}
+
+.header__link {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.header__link--active {
+    opacity: 1;
+}
+
+.header__button {
+    padding: 8px 20px;
+    border-radius: 999px;
+    background-color: #4C35FF;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* HERO */
+
+.hero {
+    padding: 60px 0 80px;
+    background-color: #FFFFFF;
+}
+
+.hero__container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero__label {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 8px;
+}
+
+.hero__title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.hero__text {
+    font-size: 16px;
+    opacity: 0.8;
+    margin-bottom: 24px;
+    max-width: 420px;
+}
+
+.hero__button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 999px;
+    background-color: #4C35FF;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.hero__gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.hero__image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.hero__image--large {
+    grid-column: span 2;
+    height: 320px;
+}
+
+
+/* REASON */
+
+.reason {
+    padding: 60px 0;
+    background-color: #F9FAFB;
+}
+
+.reason__container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.reason__image img {
+    border-radius: 20px;
+}
+
+.reason__title {
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.reason__text {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.reason__button {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background-color: #4C35FF;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/* FEATURES */
+
+.features {
+    padding: 60px 0;
+    background-color: #FFFFFF;
+}
+
+.features__title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 32px;
+}
+
+.features__list {
+    display: flex;
+    gap: 24px;
+}
+
+.features__item {
+    flex: 1;
+    padding: 24px;
+    border-radius: 18px;
+    background-color: #F9FAFB;
+}
+
+.features__item-title {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.features__item-text {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* FLORAL */
+
+.floral {
+    padding: 60px 0;
+    background-color: #FFFFFF;
+}
+
+.floral__container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.floral__title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.floral__text {
+    font-size: 15px;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.floral__button {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 999px;
+    background-color: #4C35FF;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.floral__gallery {
+    display: flex;
+    gap: 12px;
+}
+
+.floral__image {
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+/* CTA + FOOTER */
+
+.cta {
+    padding: 50px 0;
+    background-color: #4C35FF;
+    color: #FFFFFF;
+}
+
+.cta__container {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.cta__title {
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.cta__text {
+    font-size: 15px;
+    opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+.cta__button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 999px;
+    background-color: #FFFFFF;
+    color: #4C35FF;
+    font-size: 14px;
+}
+
+.cta__image img {
+    max-width: 220px;
+}
+
+.footer {
+    padding: 16px 0;
+    background-color: #FFFFFF;
+}
+
+.footer__text {
+    text-align: center;
+    font-size: 13px;
+    opacity: 0.7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
